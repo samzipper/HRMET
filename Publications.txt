@@ -1,0 +1,10 @@
+Publications Using HRMET - feel free to add your own, along with a couple bullet-point highlights:
+
+1. Zipper, S.C. & S.P. Loheide II (2014). Using evapotranspiration to
+   assess drought sensitivity on a subfield scale with HRMET, a high
+   resolution surface energy balance model. Agricultural & Forest
+   Meteorology 197: 91-102. DOI: 10.1016/j.agrformet.2014.06.009
+-Introduce and describe HRMET; validate for rainfed corn in south-central Wisconsin
+-Use HRMET output to map drought sensitivity
+-Drought sensitivity varies as a function of soil texture and water table depth 
+ (for more info, see Zipper et al., 2015, Water Resources Research, DOI: 10.1002/2015WR017522)
