@@ -11,6 +11,8 @@ HRMET is introduced and described in the following publication:
     resolution surface energy balance model. Agricultural & Forest
     Meteorology 197: 91-102. DOI: 10.1016/j.agrformet.2014.06.009
 
+Link: http://dx.doi.org/10.1016/j.agrformet.2014.06.009
+
 Please cite this paper if you use HRMET or any derivative thereof.
 
 ## Repository Contents ##
