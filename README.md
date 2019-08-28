@@ -1,5 +1,5 @@
 ### README ###
-Author:  Sam Zipper (samuelczipper@gmail.com)
+Author:  Sam Zipper (samzipper@ku.edu)
 
 This repository is home to code for the High Resolution Mapping of 
 EvapoTranspiration (HRMET; pronounced "hermit") model.
