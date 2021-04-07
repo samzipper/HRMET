@@ -57,7 +57,7 @@ HRMET <- function(datetime, daylightSavings=1, longitude, latitude,
   #ET <- HRMET(datetime=ymd_hm("2012-07-30 11:00"), daylightSavings=1,
   #            longitude=89.38420, latitude=43.2966, 
   #            Tair=27.25, SWin=731, u=1.85, ea=2.2834, pa=97.883, 
-  #            Zair=, Zu=2,
+  #            Zair=3, Zu=10,
   #            LAI=4.04, h=2.54, Tsurf=25.62, 
   #            albSoil=0.105, albVeg=0.2, emissSoil=0.945, emissVeg=0.94)
   #
@@ -75,6 +75,10 @@ HRMET <- function(datetime, daylightSavings=1, longitude, latitude,
   
   # First, check if any of your inputs are NaNs - if so, return an error
   if (is.na(datetime+longitude+latitude+Tair+SWin+u+ea+pa+LAI+h+Tsurf+albSoil+albVeg+emissSoil+emissVeg)) stop("Missing input data")
+  
+  # Error check: is wind measurement height < plant height?
+  if (Zu < h) stop("Zu < h; provide wind speed measurement from different height")
+  if (Zair < h) stop("Zair < h; provide air temperature measurement from different height")
   
   ## Data processing, define constants
   # make sure nothing is less thna or equal to 0 (important if you are selecting
